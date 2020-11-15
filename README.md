@@ -1,5 +1,5 @@
 # AWS Lambda SES Email Forwarder
-Check out this nice doc as well: [Use GMail with your own domain for free thanks to Amazon SES & Lambda](https://www.daniloaz.com/en/use-gmail-with-your-own-domain-for-free-thanks-to-amazon-ses-lambda/)
+
 [![npm version](https://badge.fury.io/js/aws-lambda-ses-forwarder.svg)](https://www.npmjs.com/package/aws-lambda-ses-forwarder)
 [![Travis CI test status](https://travis-ci.org/arithmetric/aws-lambda-ses-forwarder.svg?branch=master)](https://travis-ci.org/arithmetric/aws-lambda-ses-forwarder)
 [![Test coverage status](https://coveralls.io/repos/github/arithmetric/aws-lambda-ses-forwarder/badge.svg?branch=master)](https://coveralls.io/github/arithmetric/aws-lambda-ses-forwarder?branch=master)
@@ -10,6 +10,8 @@ AWS Simple Email Service (SES) to run a "serverless" email forwarding service.
 Instead of setting up an email server on an EC2 instance to handle email
 redirects, use SES to receive email, and the included Lambda script to process
 it and send it on to the chosen destination.
+
+Check out this nice doc as well: [Use GMail with your own domain for free thanks to Amazon SES & Lambda](https://www.daniloaz.com/en/use-gmail-with-your-own-domain-for-free-thanks-to-amazon-ses-lambda/)
 
 ## Limitations
 
